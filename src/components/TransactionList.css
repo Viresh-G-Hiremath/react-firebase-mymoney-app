@@ -1,0 +1,40 @@
+.transaction-list {
+  width: 80%;
+  height: 496px;
+  background-color: white;
+  border-radius: 5px;
+  overflow: auto;
+}
+.transaction {
+  display: flex;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  align-items: center;
+  background-image: linear-gradient(
+    to right,
+    rgba(128, 0, 128, 0.726),
+    rgb(85, 206, 247)
+  );
+}
+.transaction p:first-child {
+  margin-right: auto;
+  color: white;
+}
+.transaction p {
+  font-size: larger;
+  font-weight: bold;
+}
+.transaction button {
+  margin-left: 10px;
+  padding: 8px;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+}
+@media screen and (max-width: 414px) {
+  .transaction-list {
+    width: 100%;
+  }
+}

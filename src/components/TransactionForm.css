@@ -1,0 +1,53 @@
+.transaction-form {
+  background-color: white;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px;
+  border-radius: 5px;
+}
+.transaction-form label {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.transaction-form h2 {
+  text-align: center;
+}
+.transaction-form input {
+  padding: 10px;
+  width: 300px;
+}
+.transaction-form button {
+  width: 300px;
+  padding: 10px;
+  background-image: linear-gradient(
+    to right,
+    rgba(128, 0, 128, 0.541),
+    rgb(85, 206, 247)
+  );
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.transaction-form button:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(85, 206, 247),
+    rgba(128, 0, 128, 0.541)
+  );
+}
+.transaction-form p {
+  margin-top: 10px;
+}
+@media screen and (max-width: 414px) {
+  .transaction-form {
+    width: 100%;
+  }
+}

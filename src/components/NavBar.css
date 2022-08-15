@@ -1,0 +1,45 @@
+nav {
+  width: 100%;
+  height: 80px;
+  background-image: linear-gradient(
+    to right,
+    rgba(128, 0, 128, 0.541),
+    rgb(85, 206, 247)
+  );
+  display: flex;
+  align-items: center;
+}
+nav h1 {
+  color: white;
+  font-size: 50px;
+  margin-right: auto;
+  margin-left: 10px;
+}
+nav button {
+  margin-right: 20px;
+  padding: 5px 20px;
+  border: none;
+  font-size: larger;
+  border-radius: 5px;
+}
+nav button:hover {
+  background-color: rgba(128, 0, 128, 0.541);
+  color: white;
+}
+nav p {
+  margin-right: 10px;
+  font-size: larger;
+}
+@media screen and (max-width: 414px) {
+  nav {
+    height: 150px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  nav p {
+    margin: 10px;
+  }
+  nav button {
+    margin-left: 10px;
+  }
+}

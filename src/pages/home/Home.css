@@ -1,0 +1,13 @@
+.home {
+  display: flex;
+  padding: 20px 40px;
+  align-items: center;
+  gap: 20px;
+}
+@media screen and (max-width: 414px) {
+  .home {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 20px 0;
+  }
+}
